@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belyse's portfolio</title>
+
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body onload="welcomeMessage()">
+    <header id="home">
+      <div class="header-content">
+        <div class="profile-image-container">
+          <img src="photo of me.jpg" alt="Your Profile Picture" />
+        </div>
+        <h1>Uwase Mahoro Belyse</h1>
+        <p>A Creative Web Developer and Design</p>
+        <p>With one year experiences</p>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#prlanguages">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#interests">Interests</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hi I am Uwase Mahoro Belyse, a passionate web developer and design
+          based in Kigali,Rwanda with one year experience. I am dedicated to
+          creating visually appealing and user-friendly digital experiences.
+          With a strong foundation in front-end and back-end development, I
+          strive to build innovative and effective web solutions.
+        </p>
+        <p>
+          I am constantly learning and exploring new technologies to enhance my
+          skills and stay up-to-date with the latest industry trends.
+        </p>
+      </section>
+      <section id="prlanguages">
+        <h2>Skills</h2>
+        <p class="skills">
+          Here are some of the key technologies and skills I bring to the table:
+        </p>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Responsive Design</li>
+          <li>UI/UX Principles</li>
+          <li>Git</li>
+        </ul>
+      </section>
+      <section id="education">
+        <h2>Educational Background</h2>
+        <p>
+          🎓 Bachelor of Business information communication and technology
+          <br />
+          📍Mount kenya university – 2023-present<br />
+          🎓 Diploma in Math economics and computer <br />📍 College of
+          Immaculate Conception – 2022
+        </p>
+
+        <a
+          href="assets/Cv (1).pdf"
+          download="Cv (1).pdf"
+          class="download-btn"
+          onclick="thankYouMessage()"
+          >Download My CV</a
+        >
+      </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <p>
+          With my one year experience, i have acquired a lot of skills in this
+          field and Completing SheCode’s Web Development and React
+          certification, gave more practical experience in building responsive
+          websites using React, HTML, CSS, and JavaScript. i am always looking
+          for new challenges to improve my skills and knowledge
+        </p>
+      </section>
+      <section id="interests">
+        <h2>Interests</h2>
+        <p>
+          Beyond coding, I enjoy learning new technologies. I enjoy coding,
+          designing and creating beautiful and functional websites. I also love
+          to learn about new trends in web development and design.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are a few of the projects I've been working on:</p>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/mahoro-belyse/weather_react1"
+              class="project-link"
+              target="_blank"
+              >weather website:</a
+            >
+            A simple weather application built with React.
+          </li>
+          <li>
+            <a href="#" class="project-link" target="_blank">My portfolio:</a>
+            my portfolio which contains knowledge and experience in tech and my
+            CV
+          </li>
+        </ul>
+        <p>
+          You can find more of my work on
+          <a
+            href="https://github.com/mahoro-belyse"
+            class="project-link"
+            target="_blank"
+            >GitHub</a
+          >.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          I'm always open to new opportunities and collaborations. Feel free to
+          reach out!
+        </p>
+        <p>
+          Email:
+          <a href="mailto:mahorobelyse1@gmail.com">mahorobelyse1@gmail.com</a>
+        </p>
+        <p>Phone: +250787488939</p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/uwase-mahoro-belyse-3a1300344"
+            target="_blank"
+            >Uwase Mahoro Belyse</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      &copy; 2025 U.M.Belyse. All rights reserved. |
+      <a href="https://github.com/mahoro-belyse" target="_blank">GitHub</a>
+    </footer>
+
+    <script>
+      function welcomeMessage() {
+        alert(
+          "Welcome to my portfolio website! I hope you enjoy exploring my work."
+        );
+      }
+      function thankYouMessage() {
+        alert(
+          "Thank you for downloading my CV! Feel free to reach out if you have any questions."
+        );
+      }
+    </script>
+  </body>
+</html>
