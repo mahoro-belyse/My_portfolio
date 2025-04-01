@@ -1,6 +1,7 @@
 # **Belyse's Portfolio**
 
 This is a personal portfolio website for Uwase Mahoro Belyse, a web developer and designer. The website showcases her skills, education, experience, projects, and contact information.
+
 ---
 #📌 **About the Project**
 
@@ -15,6 +16,7 @@ This portfolio website is designed to present my professional journey, including
 ✅ Ways to contact me for collaboration
 
 ---
+
 #💻 **Technologies Used**
 
 ✅HTML5 – Page structure
@@ -24,6 +26,7 @@ This portfolio website is designed to present my professional journey, including
 ✅GitHub – For hosting my projects
 
 ---
+
 # **How to Use**
 
 ✅Open the index.html file in a browser to view the website.
@@ -39,6 +42,7 @@ This portfolio website is designed to present my professional journey, including
 ---
 # **Live Preview**
 ---
+
 # **Sections of the Website**
 
 ✅ Profile – Displays my name, photo, and brief introduction
