@@ -1,14 +1,17 @@
+/*styles for resetting margins and other css*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Arial", sans-serif;
 }
+/*body style*/
 body {
   background: #1e1e28;
   color: #e0e0e0;
   line-height: 1.6;
 }
+/*link style and hover effects*/
 a {
   color: #a78bfa;
   text-decoration: none;
@@ -17,6 +20,7 @@ a {
 a:hover {
   color: #d8b4fe;
 }
+/*header style*/
 header {
   background: #2d2d3b;
   color: #f5f5f5;
@@ -25,7 +29,7 @@ header {
   position: relative;
   overflow: hidden;
 }
-
+/*gradient overlay effect for the header*/
 header::before {
   content: "";
   position: absolute;
@@ -40,12 +44,12 @@ header::before {
   );
   z-index: 0;
 }
-
+/*header content style*/
 .header-content {
   position: relative;
   z-index: 1;
 }
-
+/*profile image container style*/
 .profile-image-container {
   width: 150px;
   height: 150px;
@@ -55,23 +59,24 @@ header::before {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   border: 3px solid #3a3a4a;
 }
-
+/*styling profile image*/
 .profile-image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-
+/*header text style*/
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
 }
-
+/*header paragraph style*/
 header p {
   font-size: 1.1rem;
   color: #bdbdbd;
 }
+/*navigation bar style*/
 nav {
   background: #2d2d3b;
   display: flex;
@@ -82,23 +87,24 @@ nav {
   top: 0;
   z-index: 100;
 }
-
+/*styling navigation links*/
 nav a {
   color: #e0e0e0;
   margin: 0 1.5rem;
   font-weight: bold;
 }
-
+/*styling navigation links on hover*/
 nav a:hover {
   color: #a78bfa;
 }
+/*container style  for sections*/
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 2rem auto;
   padding: 2rem 0;
 }
-
+/*styling sections*/
 section {
   background: #2d2d3b;
   padding: 3rem;
@@ -106,7 +112,7 @@ section {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-
+/*styling section headings*/
 section h2 {
   color: #f5f5f5;
   font-size: 2rem;
@@ -118,14 +124,14 @@ section h2 {
   display: inline-block;
   width: auto;
 }
-
+/*styling section paragraphs*/
 section p {
   color: #bdbdbd;
   line-height: 1.7;
   margin-bottom: 1rem;
   text-align: center;
 }
-
+/*download button style5*/
 .download-btn {
   display: block;
 
@@ -139,11 +145,11 @@ section p {
   transition: background-color 0.3s ease;
   text-align: center;
 }
-
+/*styling download button on hover*/
 .download-btn:hover {
   background: #8c6eeb;
 }
-
+/*styling project link*/
 .project-link {
   color: #a78bfa;
   font-weight: bold;
@@ -152,7 +158,7 @@ section p {
 .project-link:hover {
   color: #d8b4fe;
 }
-
+/*styling footer*/
 footer {
   background: #1e1e28;
   color: #bdbdbd;
@@ -161,7 +167,28 @@ footer {
   border-top: 1px solid #3a3a4a;
   font-size: 0.9rem;
 }
-
+/*style for list in skills*/
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+/*style for each list item in skills*/
+.skills-list li {
+  background: #34495e;
+  color: #ecf0f1;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+/*style for the skills section*/
+.skills {
+  text-align: left;
+}
+/* Responsive Design */
 @media (max-width: 768px) {
   header {
     padding: 3rem 0;
@@ -190,22 +217,4 @@ footer {
   section p {
     font-size: 1rem;
   }
-}
-.skills-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 15px;
-}
-.skills-list li {
-  background: #34495e;
-  color: #ecf0f1;
-  padding: 8px 15px;
-  border-radius: 5px;
-  font-size: 0.9rem;
-}
-.skills {
-  text-align: left;
 }
