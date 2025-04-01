@@ -13,6 +13,7 @@ This portfolio website is designed to present my professional journey, including
 ✅ Some of the projects I have built (with links to GitHub)
 
 ✅ Ways to contact me for collaboration
+
 ---
 #💻 **Technologies Used**
 
@@ -21,6 +22,7 @@ This portfolio website is designed to present my professional journey, including
 ✅CSS3 – Styling and responsiveness
 
 ✅GitHub – For hosting my projects
+
 ---
 # **How to Use**
 
