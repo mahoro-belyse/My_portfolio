@@ -25,6 +25,8 @@ This portfolio website is designed to present my professional journey, including
 
 ✅GitHub – For hosting my projects
 
+✅ Java script
+
 ---
 
 # **How to Use**
@@ -39,8 +41,7 @@ This portfolio website is designed to present my professional journey, including
 
 ✅Ensure "Cv (1).pdf" is in the project folder if you want the CV download to work.
 
----
-# **Live Preview**
+
 ---
 
 # **Sections of the Website**
