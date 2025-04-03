@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="portfolio.css" />
   </head>
-  <body>
+  <body onload="welcomeMessage()">
     <!--header that contanies my profile details-->
     <header id="profile">
       <div class="header-content">
@@ -76,7 +76,12 @@
           Immaculate Conception – 2022
         </p>
 
-        <a href="Cv (1).pdf" download class="download-btn" target="_blank"
+        <a
+          href="Cv (1).pdf"
+          download
+          class="download-btn"
+          target="_blank"
+          onclick="thanks()"
           >Download My CV</a
         >
       </section>
@@ -164,5 +169,21 @@
     </div>
     <!--copyright information-->
     <footer>&copy; 2025 U.M.Belyse. All rights reserved.</footer>
+    <!-- javascript  -->
+    <script>
+      // function to display welcoming message
+      function welcomeMessage() {
+        alert(
+          "welcome to my portfolio website!I hope you enjoy exploring my work"
+        );
+      }
+      //function to display thanks message for downloading my Cv
+      function thanks() {
+        setTimeout(() => {
+          alert("thanks you for downloading my Cv! I appreciate your time"),
+            2000;
+        });
+      }
+    </script>
   </body>
 </html>
